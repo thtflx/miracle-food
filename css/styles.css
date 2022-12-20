@@ -418,8 +418,10 @@ select:-webkit-autofill:focus {
 }
 
 .foods__img {
-    /* width: 267px;
-    height: 300px; */
+    width: 325px;
+    height: 227px;
+    border-radius: 5px;
+    border-bottom: 2px solid rgb(8, 9, 8)
 }
 
 .foods__content {
