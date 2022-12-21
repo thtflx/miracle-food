@@ -833,3 +833,68 @@ only screen and ( min-resolution: 2dppx) {}
         font-size: 12px;
     }
 }
+
+@media screen and (max-width: 400px) {
+    .header__logo {
+        width: 100px;
+        height: 40px;
+    }
+    .footer_s-list {
+        display: none;
+    }
+    .header__contact__content {
+        position: relative;
+        top: 5px;
+    }
+    .header__contact__content-text {
+        margin-top: 0;
+        margin-bottom: 2px;
+        font-size: 10px;
+    }
+    .header__contact__content-number {
+        margin-top: 0;
+        font-size: 9px;
+    }
+    .adv__img {
+        width: 300px;
+        height: 500px;
+    }
+    .adv__left {
+        margin-right: 2px;
+    }
+    .adv__right {
+        margin-left: 2px;
+    }
+    .icon {
+        width: 20px;
+        height: 20px;
+    }
+    .f-c__list {
+        flex-wrap: wrap;
+    }
+    .f-c__item {
+        margin-right: 4px;
+    }
+    .f-c__link {
+        font-size: 12px;
+        padding: 5px;
+    }
+    .foods__list {
+        position: relative;
+        right: -10px;
+    }
+    .foods__item:last-child {
+        margin-right: 0;
+    }
+    .copyright_text {
+        font-size: 12px;
+        margin-right: 4px;
+        color: rgba(128, 128, 128, 0.621);
+    }
+    .tlg {
+        color: rgb(255, 255, 255);
+        font-size: 15px;
+        font-weight: 400;
+        text-decoration: none;
+    }
+}
