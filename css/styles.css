@@ -1,12 +1,10 @@
 /*CUSTOM-PROPS */
 
 :root {
-    /* --bg-color: #0e0720; */
     --bg-color: #fff;
     --accent-color: #1F51FF;
     --text-color: black;
     --item-bg: #eeeeee;
-    /* --text-color: #fff; */
     --grey-color: #cfcfcf;
     --wrap-bg: #403C3B;
     --line: rgba(7, 7, 7, 0.319);
@@ -318,7 +316,9 @@ select:-webkit-autofill:focus {
 }
 
 .adv__img {
-    border: 2px solid var(--text-color);
+    width: 400px;
+    height: 600px;
+    border: 4px solid var(--addres);
     border-radius: 10px;
 }
 
@@ -404,7 +404,6 @@ select:-webkit-autofill:focus {
 .foods__item {
     width: 290px;
     background-color: var(--item-bg);
-    /* background-color: #0c0c0c; */
     border-radius: 10px;
     box-shadow: 0px 6px 9px rgba(6, 116, 10, 0.608);
     margin-bottom: 35px;
@@ -463,13 +462,13 @@ select:-webkit-autofill:focus {
     line-height: 24px;
 }
 
-.foods__add-icon {
+.foods__add-price {
     /* background-color: var(--accent-color); */
     background-color: var(--white);
-    padding: 10px 20px 10px 20px;
+    padding: 10px;
     border-radius: 15px;
     font-weight: 600;
-    font-size: 25px;
+    font-size: 20px;
     text-decoration: none;
     color: var(--bg-color);
     border: 2px solid var(--bg-color);
@@ -750,3 +749,87 @@ only screen and ( -o-min-device-pixel-ratio: 2/1),
 only screen and ( min-device-pixel-ratio: 2),
 only screen and ( min-resolution: 192dpi),
 only screen and ( min-resolution: 2dppx) {}
+
+@media screen and (max-width: 958px) {
+    .foods__item:not(:last-child) {
+        margin-right: 15px;
+    }
+}
+
+@media screen and (max-width: 935px) {
+    .foods__item:not(:last-child) {
+        margin-right: 12px;
+    }
+}
+
+@media screen and (max-width: 926px) {
+    .foods__item:not(:last-child) {
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    .foods__title {
+        display: flex;
+        justify-content: center;
+    }
+    .foods__list {
+        justify-content: center;
+    }
+    .foods__item:not(:last-child) {
+        margin-right: 30px;
+    }
+    .footer_s-list {
+        display: block;
+    }
+    .footer_s-item:not(:last-child) {
+        margin-bottom: 8px;
+    }
+}
+
+@media screen and (max-width: 775px) {
+    .footer_s-link {
+        font-size: 15px;
+    }
+    .header__contact__content-text {
+        font-size: 15px;
+    }
+    .header__contact__content-number {
+        font-size: 15px;
+    }
+    .header__addres {
+        padding: 12px;
+    }
+    .header__addres-icon {
+        margin-right: 6px;
+    }
+    .header__addres-text {
+        margin: 0;
+        color: var(--text-color);
+        font-size: 15px;
+    }
+    .f-c__link {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 725px) {
+    .footer_s-link {
+        font-size: 13px;
+    }
+    .header__contact__content-text {
+        font-size: 12px;
+    }
+    .header__contact__content-number {
+        font-size: 13px;
+    }
+    .header__addres {
+        padding: 10px;
+    }
+    .header__addres-icon {
+        margin-right: 5px;
+    }
+    .header__addres-text {
+        font-size: 12px;
+    }
+}
