@@ -323,7 +323,6 @@ select:-webkit-autofill:focus {
     padding-top: 25px;
     padding-bottom: 25px;
     border-top: 1px solid rgba(0, 0, 0, 0.344);
-    /* border-bottom: 1px solid rgba(0, 0, 0, 0.244); */
 }
 
 .f-c__list {
@@ -333,10 +332,6 @@ select:-webkit-autofill:focus {
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-
-.f-c__item:not(:last-child) {
-    /* margin-right: 20px; */
 }
 
 .f-c__link {
@@ -449,7 +444,6 @@ select:-webkit-autofill:focus {
 }
 
 .foods__add-price {
-    /* background-color: var(--accent-color); */
     background-color: var(--white);
     padding: 10px;
     border-radius: 15px;
@@ -468,7 +462,6 @@ select:-webkit-autofill:focus {
     padding-bottom: 25px;
     background-color: black;
     border-top: 1px solid rgba(103, 96, 96, 0.26);
-    /* box-shadow: 0px 5px 15px rgba(1, 147, 25, 0.221); */
 }
 
 .footer__container {
@@ -476,12 +469,6 @@ select:-webkit-autofill:focus {
     align-items: center;
     justify-content: space-between;
 }
-
-
-/* .footer_f {
-    display: flex;
-    align-items: center;
-} */
 
 .footer_s-list {
     padding: 0;
