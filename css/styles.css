@@ -303,9 +303,9 @@ select:-webkit-autofill:focus {
 }
 
 .adv__img {
-    width: 400px;
+    width: 900px;
     height: 600px;
-    border: 4px solid var(--addres);
+    border: 1.5px solid var(--addres);
     border-radius: 10px;
 }
 
